@@ -67,7 +67,6 @@ namespace Etq_lote
             var hour = dateTime.Hour.ToString("D2");
             var minute = dateTime.Minute.ToString("D2");
 
-
             var turno = dateTime.Hour.ToString();
 
             DateTime startT1 = DateTime.Now, endT1 = DateTime.Now, startT2 = DateTime.Now, endT2 = DateTime.Now, startT3 = DateTime.Now, endT3 = DateTime.Now;
@@ -104,7 +103,6 @@ namespace Etq_lote
             {
                 lote = $"LOT {year}{day}MX11{t}[X] {hour}:{minute}";
             }
-            Console.WriteLine(lote);
 
             return lote;
         }
